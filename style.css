@@ -1,0 +1,23 @@
+.todoLists li {
+  margin-top: 10px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+
+  border: 1px solid black;
+}
+
+.todoLists li i {
+  font-size: 14px;
+}
+.todoLists li i:hover {
+  color: red;
+  transition-duration: 0.1s;
+  font-size: 16px;
+}
+
+.done {
+  text-decoration: line-through;
+}
